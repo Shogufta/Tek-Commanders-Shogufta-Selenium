@@ -9,10 +9,16 @@ public class oprningBrowser {
 
         d.get("https://www.facebook.com/");
 
+        d.manage().window().maximize();
+
+        String pageTitle = d.getTitle(); // Get application meta data title
+
+        System.out.println(pageTitle);
+
         //Closing browser
 
-        d.quit(); //closing browser
-        d.close(); ///closing 1 tab
+      //  d.quit(); //closing browser
+    //    d.close(); ///closing 1 tab
 
 
 
