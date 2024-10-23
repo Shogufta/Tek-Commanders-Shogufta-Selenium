@@ -3,6 +3,8 @@ package tekSelenium;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class oprningBrowser {
+
+    // Trying to click on sign in button in retail app
     public static void main(String[] args) {
 
         ChromeDriver d = new ChromeDriver();
